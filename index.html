@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Solution Landing Page</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-content">
+      <h1>AI That Thinks Ahead</h1>
+      <p>Intelligent automation to supercharge your business. Seamlessly integrate, analyze, and grow.</p>
+      <a href="#contact" class="cta">Get Started</a>
+    </div>
+    <div class="hero-image">
+      <img src="ai-graphic.png" alt="AI Illustration">
+    </div>
+  </main>
+
+  <section id="features" class="features">
+    <div class="feature-card">
+      <h3>Smart Analytics</h3>
+      <p></p>1.Real-time insights powered by AI algorithms.
+      <p></p>2. Predictive & Prescriptive Intelligence 
+      <p></p>3. Edge & Augmented Analytics for Efficiency & Transparency
+  </p>
+    </div>
+    <div class="feature-card">
+      <h3>Automation Tools</h3>
+      <p></p>1.Automate workflows to save time and reduce errors.
+      <p></p>2. Boosts Efficiency, Accuracy & Cost Savings
+      <p></p>3. Versatile Use-Cases & User-Friendly Deployment>
+      </p>
+    </div>
+    <div class="feature-card">
+      <h3>Secure & Compliant</h3>
+      <p></p>1.🛡️ Security by Design & Robust Protections
+      <p></p>2.📜 Compliance, Governance & Auditing
+      <p></p>3.🔐 Data Privacy & Responsible Management
+
+      </p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Why Choose Us?</h2>
+    <p>We harness the power of artificial intelligence to deliver scalable, reliable, and easy-to-use tools that help your business thrive in a rapidly evolving digital landscape.</p>
+  </section>
+
+  <footer id="contact">
+    <h2>Contact Us</h2>
+       <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input name="email" type="email" placeholder="Your Email" required>
+       <button type="submit">Start Free Trial</button>
+    </form>
+    <p>© <span id="year"></span> AI Solution Inc.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
